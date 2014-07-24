@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
 	void Awake ()		
     {
 		this.deviceRotation = (DeviceRotation)gameObject.AddComponent("DeviceRotation");
-		this.deviceRotation.ResetDeviceRotation();		
+		this.deviceRotation.ResetDeviceRotation();
 		Application.targetFrameRate = 60;
 		Input.gyro.updateInterval = 0.01f;
     }
